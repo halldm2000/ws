@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Worldscope — Agentic AI for Earth Science Software</title>
+<meta name="description" content="Worldscope: an interactive Earth-system workbench in which AI agents are first-class users of every capability.">
+<!--
+  ============================================================
+  THE POSTER QR POINTS HERE. THIS URL NEVER CHANGES.
+  Everything below is editable at any time — that is the point.
+
+  TO RE-POINT: edit the <a href> values in the .links block,
+  commit, push. Live in about a minute.
+
+  Each link is wrapped in a comment saying what to do when the
+  thing exists. Delete a whole <a> block to hide that button;
+  the layout reflows on its own.
+  ============================================================
+-->
+<style>
+  :root {
+    --green: #76b900;
+    --green-d: #5c9000;
+    --ink: #14161a;
+    --ink-2: #3d444d;
+    --muted: #6b737d;
+    --line: #e2e5e9;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 22px 56px;
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--ink); background: var(--bg);
+    max-width: 640px; margin-inline: auto;
+    -webkit-text-size-adjust: 100%;
+  }
+  .eyebrow {
+    font-size: 12.5px; letter-spacing: .09em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600;
+  }
+  .eyebrow b { color: var(--green-d); font-weight: 700; }
+  h1 { font-size: 30px; line-height: 1.15; letter-spacing: -.02em; margin: 10px 0 0; }
+  h1 em { font-style: normal; color: var(--green-d); }
+  .lede { font-size: 17px; color: var(--ink-2); margin: 14px 0 0; }
+  .rule { height: 3px; background: var(--green); margin: 26px 0 24px; border-radius: 2px; }
+
+  .links { display: grid; gap: 12px; }
+  a.card {
+    display: block; padding: 16px 18px; border: 1px solid var(--line);
+    border-radius: 10px; text-decoration: none; color: inherit;
+    transition: border-color .15s, transform .15s;
+  }
+  a.card:hover, a.card:focus { border-color: var(--green); transform: translateY(-1px); }
+  a.card b { display: block; font-size: 17px; }
+  a.card span { display: block; font-size: 14.5px; color: var(--muted); margin-top: 3px; }
+  a.card::after { content: " →"; color: var(--green-d); font-weight: 700; }
+
+  .note {
+    margin-top: 26px; padding: 14px 16px; background: #f6f7f9;
+    border-radius: 10px; font-size: 14.5px; color: var(--ink-2);
+  }
+  footer {
+    margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 13.5px; color: var(--muted);
+  }
+  footer a { color: var(--green-d); }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#f0f2f5; --ink-2:#c3c9d2; --muted:#8d959f; --line:#2b3038; --bg:#131519; --green-d:#8fd400; }
+    .note { background: #1c1f25; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="eyebrow"><b>ML-ESM 2026</b> · Bonn · 24–26 August</div>
+  <h1>Agentic AI for Earth Science Software:<br><em>a field report from building Worldscope</em></h1>
+  <p class="lede">
+    An interactive Earth-system workbench in which AI agents are not chatbots bolted on,
+    but first-class users of every capability. Built in 4½ months, essentially every commit
+    written by an AI agent.
+  </p>
+
+  <div class="rule"></div>
+
+  <div class="links">
+
+    <!-- WALKTHROUGH VIDEO — point at YouTube/Vimeo/wherever once uploaded.
+         Delete this whole <a> block if you would rather not show it. -->
+    <a class="card" href="#">
+      <b>Watch the walkthrough</b>
+      <span>A few minutes of the workbench being driven by an agent</span>
+    </a>
+
+    <!-- SOURCE — swap in the repo URL when it goes public.
+         Until then this points at the poster PDF, which always exists. -->
+    <a class="card" href="poster.pdf">
+      <b>Read the poster</b>
+      <span>Full A0 poster, including all 24 open questions</span>
+    </a>
+
+    <!-- CONTACT — safe to leave as-is. -->
+    <a class="card" href="mailto:dhall@nvidia.com?subject=Worldscope%20%E2%80%94%20ML-ESM%20poster">
+      <b>Get in touch</b>
+      <span>Answers welcome. Arguments preferred.</span>
+    </a>
+
+  </div>
+
+  <div class="note">
+    <b>Source:</b> Worldscope is intended for open release. If the repository link
+    is not live yet, the walkthrough video covers the same ground — and mail
+    reaches me either way.
+  </div>
+
+  <footer>
+    <b>David Matthew Hall</b> · NVIDIA Earth-2 · Berlin, Germany ·
+    <a href="mailto:dhall@nvidia.com">dhall@nvidia.com</a>
+  </footer>
+
+</body>
+</html>
